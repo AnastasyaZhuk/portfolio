@@ -15,7 +15,7 @@ body {
   margin: 0 auto; }
 
 .main {
-  background-image: url(../img/bg.jpeg);
+  background-image: url(../img/bg.png);
   display: flex;
   flex-direction: column;
   height: 100%;
