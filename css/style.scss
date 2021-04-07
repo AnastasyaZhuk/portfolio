@@ -358,6 +358,7 @@ body{
         }
 
         &-thumb {
+            transition: 1s;
             position: relative;
             overflow: hidden;
             width: 100%;
@@ -372,6 +373,12 @@ body{
                 height: 100%;
                 object-fit: cover;
             }
+
+        
+        }
+
+        &-thumb:hover {
+            transform: scale(1.15);
         }
 }
 
