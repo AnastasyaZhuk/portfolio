@@ -318,7 +318,7 @@ body{
 
 .section-portfolio {
     padding-top: 123px;
-    padding-bottom: 100px;
+    padding-bottom: 161px;
 }
 
 .portfolio {
@@ -373,4 +373,206 @@ body{
                 object-fit: cover;
             }
         }
+}
+
+.btn {
+    color: #fff;
+    background-color: $dark;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 20px 0;
+    border:none;
+}
+
+.section-banner {
+    padding-top: 72px;
+    padding-bottom: 113px;
+    background-color: $dark;
+    color: #fff;
+    text-align: center;
+
+    .before-title {
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+
+    .title-h2 {
+        font-size: 48px;
+        margin-top: 15px;
+        margin-bottom: 42px;
+    }
+
+    .btn {
+        color: $dark;
+        background-color: #fff;
+        padding: 12px 57px;
+    }
+}
+
+.section-feedback {
+    padding-top: 122px;
+    padding-bottom: 158px;
+}
+
+.feedback {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 66px;
+
+    &-item {
+        flex: 0 0 45%;
+        max-width: 45%;
+    }
+
+    &-top {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 56px;
+    }
+
+    &-thumb {
+        margin-right: 20px;
+    }
+
+    &-name {
+        &__title {
+            font-size: 22px;
+            margin-top: 14px;
+            margin-bottom: 11px;
+        }
+
+        &__job {
+            font-size: 12px;
+            color: $text;
+            margin-bottom: 0;
+    
+        }
+    }
+
+    &-body {
+        font-size: 18px;
+        color: $text;
+        font-style: italic;
+        padding-left: 28px;
+        line-height: 1.8;
+    }
+}
+
+.section-advantages {
+    padding-top: 100px;
+    padding-bottom: 82px;
+    background-color: $light;
+}
+
+.advantages {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    &__title {
+        font-size: 16px;
+        text-transform: uppercase;
+
+        span {
+            font-size: 22px;
+            display: block;
+            font-weight: 500;
+            margin-bottom: 13px;
+        }
+    }
+
+    &__icon {
+        background-color: $dark;
+        width: 70px;
+        height: 70px;
+        border-radius: 100%;
+        margin: 0 auto;
+        background-position: center center;
+        background-repeat: no-repeat;
+        margin-bottom: 27px;
+
+        &-01 {
+            background-image: url("../img/heart.png");
+            background-size: 26px 23px;
+        }
+
+        &-02 {
+            background-image: url("../img/project.png");
+            background-size: 26px 23px;
+        }
+
+        &-03 {
+            background-image: url("../img/years.png");
+            background-size: 26px 24px;
+        }
+
+        &-04 {
+            background-image: url("../img/wins.png");
+            background-size: 19px 23px;
+        }
+    }
+}
+
+.section-form {
+    padding-top: 122px;
+    padding-bottom: 130px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+    margin: 48px auto 0;
+
+    &__input, &__textarea {
+        border: none;
+        border-bottom: 1px solid #e1e1e1;
+        font-size: 14px;
+        padding: 17px 25px;
+        text-align: center;
+        margin-bottom: 15px;
+        transition: 0.3s;
+        box-sizing: border-box;
+
+        &:hover {
+            outline: none;
+            border-bottom: 1px solid $dark;
+        }
+    }
+
+    &__textarea  {
+        padding: 12px 25px;
+        min-height: 86px;
+        margin-bottom: 35px;
+    }
+}
+
+footer {
+    background-color: $dark;
+    padding-top: 64px;
+    padding-bottom: 69px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+}
+
+.social-network {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    &__item {
+        margin-left: 20px;
+    }
+
+    &__link {
+        color: #fff;
+    }
 }
