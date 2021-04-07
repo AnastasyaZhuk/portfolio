@@ -5,6 +5,7 @@
 * HTML
 * SCSS
 * CSS Flexbox
+* CSS Grid
 
 
 ##### Проект в разработке
