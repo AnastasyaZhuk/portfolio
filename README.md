@@ -9,4 +9,4 @@
 
 
 ##### Проект в разработке
-[Посмотреть](https://anastasyazhuk.github.io/portfolio-example/)
+[Демо](https://anastasyazhuk.github.io/portfolio-example/)
