@@ -7,4 +7,4 @@
 * CSS Flexbox
 * CSS Grid
 
-[Посмотреть демо](https://anastasyazhuk.github.io/portfolio-example/)
+[Посмотреть демо](https://anastasyazhuk.github.io/portfolio/)
